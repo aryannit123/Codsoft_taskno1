@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Web Development - HTML, CSS & JavaScript</title>
+    <meta name="description" content="Learn HTML, CSS, and JavaScript from scratch. Master modern web development with hands-on projects and professional techniques.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">WebMaster</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#features" class="nav-link">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#technologies" class="nav-link">Technologies</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Master <span class="gradient-text">Web Development</span>
+                    <br>with HTML, CSS & JavaScript
+                </h1>
+                <p class="hero-description">
+                    Build modern, responsive websites from scratch. Learn the essential technologies that power the web: HTML for structure, CSS for styling, and JavaScript for interactivity.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="start-learning">Start Learning</button>
+                    <button class="btn btn-secondary" id="view-demo">View Demo</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.9/5</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <span class="window-title">index.html</span>
+                    </div>
+                    <div class="code-content" id="code-content">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <span class="code-text">&lt;<span class="tag">html</span>&gt;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">2</span>
+                            <span class="code-text">  &lt;<span class="tag">head</span>&gt;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <span class="code-text">    &lt;<span class="tag">title</span>&gt;Hello World&lt;/<span class="tag">title</span>&gt;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <span class="code-text">  &lt;/<span class="tag">head</span>&gt;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">5</span>
+                            <span class="code-text">  &lt;<span class="tag">body</span>&gt;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">6</span>
+                            <span class="code-text">    &lt;<span class="tag">h1</span>&gt;Welcome to Web Dev!&lt;/<span class="tag">h1</span>&gt;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">7</span>
+                            <span class="code-text">  &lt;/<span class="tag">body</span>&gt;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">8</span>
+                            <span class="code-text">&lt;/<span class="tag">html</span>&gt;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Why Learn Web Development?</h2>
+            <p class="section-subtitle">Master the core technologies that power every website</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏗️</div>
+                    <h3>HTML Fundamentals</h3>
+                    <p>Learn to structure web content with semantic HTML elements, forms, tables, and accessibility best practices.</p>
+                    <ul class="feature-list">
+                        <li>Semantic markup</li>
+                        <li>Forms & validation</li>
+                        <li>Accessibility standards</li>
+                        <li>SEO optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>CSS Mastery</h3>
+                    <p>Create beautiful, responsive designs with modern CSS techniques including Flexbox, Grid, and animations.</p>
+                    <ul class="feature-list">
+                        <li>Responsive design</li>
+                        <li>Flexbox & Grid</li>
+                        <li>CSS animations</li>
+                        <li>Custom properties</li>
+                    </ul>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>JavaScript Power</h3>
+                    <p>Add interactivity and dynamic behavior to your websites with modern JavaScript and DOM manipulation.</p>
+                    <ul class="feature-list">
+                        <li>DOM manipulation</li>
+                        <li>Event handling</li>
+                        <li>API integration</li>
+                        <li>Modern ES6+ features</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <h2 class="section-title">Technologies You'll Master</h2>
+            
+            <div class="tech-tabs">
+                <button class="tab-btn active" data-tab="html">HTML5</button>
+                <button class="tab-btn" data-tab="css">CSS3</button>
+                <button class="tab-btn" data-tab="js">JavaScript</button>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-pane active" id="html">
+                    <div class="tech-content">
+                        <div class="tech-info">
+                            <h3>HTML5 - The Foundation</h3>
+                            <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. It describes the structure and content of web documents using elements and tags.</p>
+                            <div class="tech-features">
+                                <div class="tech-feature">
+                                    <span class="tech-icon">📝</span>
+                                    <div>
+                                        <h4>Semantic Elements</h4>
+                                        <p>Use meaningful HTML5 elements like header, nav, main, section, article, and footer</p>
+                                    </div>
+                                </div>
+                                <div class="tech-feature">
+                                    <span class="tech-icon">📱</span>
+                                    <div>
+                                        <h4>Forms & Input</h4>
+                                        <p>Create interactive forms with various input types and validation</p>
+                                    </div>
+                                </div>
+                                <div class="tech-feature">
+                                    <span class="tech-icon">♿</span>
+                                    <div>
+                                        <h4>Accessibility</h4>
+                                        <p>Build inclusive web experiences with proper ARIA attributes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech-code">
+                            <div class="code-example">
+                                <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;My Website&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;header&gt;
+        &lt;nav&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+    &lt;main&gt;
+        &lt;section&gt;
+            &lt;h1&gt;Welcome&lt;/h1&gt;
+            &lt;p&gt;Learn web development!&lt;/p&gt;
+        &lt;/section&gt;
+    &lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="css">
+                    <div class="tech-content">
+                        <div class="tech-info">
+                            <h3>CSS3 - Styling & Layout</h3>
+                            <p>CSS (Cascading Style Sheets) controls the presentation and layout of HTML elements, making websites visually appealing and responsive across devices.</p>
+                            <div class="tech-features">
+                                <div class="tech-feature">
+                                    <span class="tech-icon">🎨</span>
+                                    <div>
+                                        <h4>Modern Layouts</h4>
+                                        <p>Master Flexbox and CSS Grid for complex, responsive layouts</p>
+                                    </div>
+                                </div>
+                                <div class="tech-feature">
+                                    <span class="tech-icon">✨</span>
+                                    <div>
+                                        <h4>Animations</h4>
+                                        <p>Create smooth transitions and keyframe animations</p>
+                                    </div>
+                                </div>
+                                <div class="tech-feature">
+                                    <span class="tech-icon">📐</span>
+                                    <div>
+                                        <h4>Responsive Design</h4>
+                                        <p>Build sites that work perfectly on all screen sizes</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech-code">
+                            <div class="code-example">
+                                <pre><code>/* Modern CSS with Grid & Flexbox */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 12px;
+    padding: 2rem;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+}</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="js">
+                    <div class="tech-content">
+                        <div class="tech-info">
+                            <h3>JavaScript - Interactivity</h3>
+                            <p>JavaScript brings websites to life with dynamic behavior, user interactions, and the ability to manipulate content in real-time.</p>
+                            <div class="tech-features">
+                                <div class="tech-feature">
+                                    <span class="tech-icon">🔧</span>
+                                    <div>
+                                        <h4>DOM Manipulation</h4>
+                                        <p>Dynamically update content and respond to user actions</p>
+                                    </div>
+                                </div>
+                                <div class="tech-feature">
+                                    <span class="tech-icon">🌐</span>
+                                    <div>
+                                        <h4>API Integration</h4>
+                                        <p>Fetch data from servers and create dynamic applications</p>
+                                    </div>
+                                </div>
+                                <div class="tech-feature">
+                                    <span class="tech-icon">⚡</span>
+                                    <div>
+                                        <h4>Modern Syntax</h4>
+                                        <p>Use ES6+ features like arrow functions, async/await, and modules</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech-code">
+                            <div class="code-example">
+                                <pre><code>// Modern JavaScript Examples
+const fetchUserData = async (userId) => {
+    try {
+        const response = await fetch(`/api/users/${userId}`);
+        const userData = await response.json();
+        return userData;
+    } catch (error) {
+        console.error('Error fetching user data:', error);
+    }
+};
+
+// DOM Manipulation
+const updateUI = (data) => {
+    const userElement = document.querySelector('#user-info');
+    userElement.innerHTML = `
+        &lt;h3&gt;${data.name}&lt;/h3&gt;
+        &lt;p&gt;${data.email}&lt;/p&gt;
+    `;
+};
+
+// Event Handling
+document.addEventListener('DOMContentLoaded', () => {
+    const button = document.querySelector('#load-data');
+    button.addEventListener('click', async () => {
+        const data = await fetchUserData(123);
+        updateUI(data);
+    });
+});</code></pre>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Build Real Projects</h2>
+            <p class="section-subtitle">Apply your skills with hands-on projects</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="preview-browser">
+                                <div class="browser-header">
+                                    <div class="browser-controls">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="browser-content">
+                                    <div class="portfolio-preview">
+                                        <div class="portfolio-header"></div>
+                                        <div class="portfolio-nav"></div>
+                                        <div class="portfolio-content">
+                                            <div class="portfolio-card"></div>
+                                            <div class="portfolio-card"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Personal Portfolio</h3>
+                        <p>Create a responsive portfolio website to showcase your skills and projects using HTML, CSS, and JavaScript.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="preview-browser">
+                                <div class="browser-header">
+                                    <div class="browser-controls">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="browser-content">
+                                    <div class="ecommerce-preview">
+                                        <div class="ecommerce-header"></div>
+                                        <div class="ecommerce-products">
+                                            <div class="product-card"></div>
+                                            <div class="product-card"></div>
+                                            <div class="product-card"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Site</h3>
+                        <p>Build a modern e-commerce interface with product listings, shopping cart functionality, and responsive design.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS Grid</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-preview">
+                            <div class="preview-browser">
+                                <div class="browser-header">
+                                    <div class="browser-controls">
+                                        <span></span><span></span><span></span>
+                                    </div>
+                                </div>
+                                <div class="browser-content">
+                                    <div class="dashboard-preview">
+                                        <div class="dashboard-sidebar"></div>
+                                        <div class="dashboard-main">
+                                            <div class="dashboard-cards">
+                                                <div class="dashboard-card"></div>
+                                                <div class="dashboard-card"></div>
+                                            </div>
+                                            <div class="dashboard-chart"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Admin Dashboard</h3>
+                        <p>Design a professional admin dashboard with charts, data tables, and interactive components.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS Flexbox</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Web Development Journey?</h2>
+                <p>Join thousands of students who have mastered HTML, CSS, and JavaScript through our comprehensive courses.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary btn-large" id="get-started">Get Started Now</button>
+                    <button class="btn btn-outline btn-large" id="learn-more">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">WebMaster</span>
+                    </div>
+                    <p>Empowering developers to build amazing web experiences with modern technologies.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘</a>
+                        <a href="#" class="social-link">🐦</a>
+                        <a href="#" class="social-link">📸</a>
+                        <a href="#" class="social-link">💼</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Learn</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">HTML Basics</a></li>
+                        <li><a href="#">CSS Fundamentals</a></li>
+                        <li><a href="#">JavaScript Essentials</a></li>
+                        <li><a href="#">Responsive Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Code Examples</a></li>
+                        <li><a href="#">Video Tutorials</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Community Forum</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 WebMaster. All rights reserved. Built with HTML, CSS & JavaScript.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
